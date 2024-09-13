@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html"><h3>Back to Shop</h3></a>
+            <h1>Shopping Cart</h1>
+        </nav>
+    </header>
+
+    <main>
+        <div class="cart-items">
+            <h2>Items in your cart:</h2>
+            <div id="cart-list"></div>
+            <h2>Total Price: $<span id="total-price">0.00</span></h2>
+            <button id="Order">Proceed to Order</button>
+            <button id="clear-cart">Clear Cart</button>
+            <div id="order-message" class="hidden"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
